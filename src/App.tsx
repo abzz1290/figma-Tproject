@@ -7,7 +7,7 @@ const App: FC = () => {
   return (
     <div className="App">
       <Header title="Start" />
-      {/* Other content */}
+     
     </div>
   );
 };
