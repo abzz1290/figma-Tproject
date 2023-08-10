@@ -1,8 +1,7 @@
 import { FC, useState } from "react";
-import { Menu, Button, Drawer } from "antd";
+import { Layout, Menu, Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import logo from "../logo.svg"
-
+import logo from "../logo.svg";
 
 interface HeaderProps {
   title: string;
@@ -22,32 +21,25 @@ const Header: FC<HeaderProps> = ({ title }) => {
   const menuItems = [
     { key: "home", title: "Home" },
     { key: "about", title: "About" },
-    
   ];
 
   return (
-    <>
-      <header className="header">
-      <img src={logo} width={50} height={50} />
-        {/* <div className="logo">{logo}</div> */}
-        <div className="title">{title}</div>
-        <div className="burger-icon">
-          <Button type="text" icon={<MenuOutlined />} onClick={toggleDrawer} />
-        </div>
-      </header>
-      <Drawer
-        placement="right"
-
-        open={drawerOpen}
-        onClose={closeDrawer}
-      >
+    <Layout.Header className="header">
+      <div className="logo">
+        <img src={logo} alt="Logo" width={50} height={50} />
+      </div>
+      <div className="title">{title}</div>
+      <div className="burger-icon">
+        <Button type="text" icon={<MenuOutlined />} onClick={toggleDrawer} />
+      </div>
+      <Drawer placement="right" visible={drawerOpen} onClose={closeDrawer}>
         <Menu mode="vertical">
           {menuItems.map((item) => (
             <Menu.Item key={item.key}>{item.title}</Menu.Item>
           ))}
         </Menu>
       </Drawer>
-    </>
+    </Layout.Header>
   );
 };
 

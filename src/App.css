@@ -9,15 +9,21 @@
 }
 
 .logo {
-  display: inline-block;
+  display: flex;
   margin-right: 10px;
-
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 30px;
+  font-weight: 500;
 }
 
-/* .burger-icon {
+.burger-icon {
+  display: flex;
+  align-items: center;
   
-}  */
+}
+
+.burger-icon svg {
+  fill: white;
+}
