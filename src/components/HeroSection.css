@@ -5,6 +5,7 @@
     justify-content: space-between;
     background-color: #74C69D;
     padding: 5%;
+
   }
   
   .hero-image {
@@ -15,23 +16,27 @@
     color: #fff;
     flex: 1;
     padding: 0 50px;
+    font-family: 'Work Sans';
   }
   
   .sub-heading {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
+    font-family: 'Work Sans';
   }
   
   .heading {
     font-size: 28px;
     font-weight: 700;
     margin: 15px 0;
+    font-family: 'Work Sans';
   }
   
   .dummy-text {
     font-size: 1rem;
     color: #fff;
+    font-family: 'Work Sans';
   }
   
   .cta-button {
@@ -39,6 +44,7 @@
     color: black;
     border: 2px solid black;
     transition: background-color 0.3s ease, color 0.3s ease;
+    font-family: 'Work Sans';
   }
   
   .cta-button:hover {

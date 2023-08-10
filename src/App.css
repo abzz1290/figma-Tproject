@@ -6,6 +6,7 @@
   padding: 0 20px;
   background-color: #74C69D;
   color: white;
+  font-family: 'Work Sans';
 }
 
 .logo {
@@ -16,6 +17,7 @@
 .title {
   font-size: 30px;
   font-weight: 500;
+  font-family: 'Work Sans';
 }
 
 .burger-icon {
