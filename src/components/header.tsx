@@ -1,5 +1,5 @@
-import React, { FC, useState } from "react";
-import { Layout, Menu, Button, Drawer } from "antd";
+import { FC, useState } from "react";
+import { Menu, Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import logo from "../logo.svg"
 
