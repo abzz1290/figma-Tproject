@@ -1,0 +1,48 @@
+.partners-section {
+  padding: 5% 5%;
+  text-align: center;
+}
+  
+  .sub-heading {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #74C69D;
+}
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .partners-text {
+    font-family: Work span;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: 32px; 
+  }
+  
+  
+  .brand-logos {
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 32px;
+  }
+  
+  .brand-logo {
+    margin: 0 16px;
+  }
+  
+  .partners-cta-button {
+    background-color: black;
+    color: white;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .partners-cta-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
