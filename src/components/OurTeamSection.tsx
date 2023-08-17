@@ -20,14 +20,15 @@ const OurTeamSection: React.FC = () => {
           </p>
         </div>
       </div>
-      <Row gutter={[16, 16]}>
+      <Row className="testyo" gutter={[16, 16]}>
         <Col xs={24} sm={12} md={6}>
-          <TeamMember
+          <TeamMember 
             name="John Doe"
             occupation="Ceo"
             imageSrc={member1Image}
           />
         </Col>
+        
         <Col xs={24} sm={12} md={6}>
           <TeamMember
             name="Jane Smith"

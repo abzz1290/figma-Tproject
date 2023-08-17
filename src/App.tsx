@@ -6,7 +6,7 @@ import HeroSection from "./components/HeroSection";
 import PartnersSection from "./components/PartnersSection";
 import CtaSection1 from './components/CtaSection1';
 import CtaSection2 from "./components/CtaSection2";
-import OurTeamSection from "./components/OurTeamSection"; // Import the OurTeamSection component
+import OurTeamSection from "./components/OurTeamSection"; 
 import Footer from "./components/Footer";
 
 const { Content } = Layout;
@@ -16,8 +16,8 @@ const App: FC = () => {
     <div className="App">
       <Header title="Start" />
       <HeroSection
-        subHeading="Welcome to our website"
-        heading="Discover Amazing Content"
+        subHeading="Welcome"
+        heading="Lorem ipsum dolor sit amet consectetur"
         buttonText="Learn More"
       />
       <PartnersSection />

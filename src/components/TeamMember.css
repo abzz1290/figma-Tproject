@@ -10,11 +10,10 @@
 
 .team-member-info {
   font-size: 24px;
-  padding: 16px;
   text-align: center;
 }
 .ant-card-cover {
-  padding: 10%;
+  padding-top: 10%;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -22,4 +21,12 @@
 }
 section.our-team-section {
   padding: 5%;
+}
+
+.team-member-info--name {
+  font-family: 'Crimson Text';
+  font-size: 24px;
+}
+.team-member--occupation {
+  font-size: 16px;
 }

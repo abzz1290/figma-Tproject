@@ -23,7 +23,7 @@ const HeroSection: FC<HeroSectionProps> = ({
       </Col>
       <Col xs={24} sm={12} lg={8} className="hero-content">
         <h2 className="hero-sub-heading">{subHeading}</h2>
-        <h1 className="heading">{heading}</h1>
+        <h1 className="hero-main-heading">{heading}</h1>
         <p className="hero-section-text">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
           nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,

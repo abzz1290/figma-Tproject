@@ -1,6 +1,5 @@
 import React from "react";
 import { Card } from "antd";
-// import { UserOutlined } from "@ant-design/icons";
 import "./TeamMember.css";
 
 interface TeamMemberProps {
@@ -26,8 +25,8 @@ const TeamMember: React.FC<TeamMemberProps> = ({
       }
     >
       <div className="team-member-info">
-        <h3>{name}</h3>
-        <p>{occupation}</p>
+        <h3 className="team-member-info--name">{name}</h3>
+        <p className="team-member--occupation">{occupation}</p>
       </div>
     </Card>
   );

@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .testyo {
+    padding: 0 10%;
+    row-gap: 40px!important;
+  }
+}
