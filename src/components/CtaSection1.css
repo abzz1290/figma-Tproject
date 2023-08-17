@@ -1,48 +1,10 @@
-/* Section1.css */
-.section1 {
-    padding: 5% 0;
-  }
-  
-  .section1-content {
-    text-align: center;
-  }
-  
-  .section1-image {
-    text-align: center;
-  }
-  
-  .section1-heading {
-    font-size: 24px;
-    margin-bottom: 16px;
-  }
-  
-  .section1-text {
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-  
-  .section1-cta-button {
-    background-color: black;
-    color: white;
-    border: none;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .section1-cta-button:hover {
+/* .section-container {
     background-color: white;
-    color: black;
   }
   
   @media (max-width: 768px) {
-    .section1-content {
-      order: 2;
-      padding: 0 5%;
+    .section-container {
+      display: flex;
+      align-items: center;
     }
-  
-    .section1-image {
-      order: 1;
-      text-align: center;
-      margin-bottom: 16px;
-    }
-  }
-  
+  } */

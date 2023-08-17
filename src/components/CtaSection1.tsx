@@ -1,31 +1,25 @@
-import { FC } from "react";
-import { Button, Row, Col } from "antd";
-import { ReactComponent as Section1Image } from "../images/ctafirstsec.svg";
-// import "./Section1.css";
+import React from 'react';
+import { Row, Col, Button } from 'antd';
+import laptopImage from '../images/ctafirstsec.svg'; 
 
-interface Section1Props {
-  heading: string;
-  content: string;
-  buttonText: string;
-}
-
-const Section1: FC<Section1Props> = ({ heading, content, buttonText }) => {
+const CtaSection1: React.FC = () => {
   return (
-    <div className="section1">
-      <Row gutter={[16, 16]} justify="center" align="middle">
-        <Col xs={24} sm={12} lg={8} className="section1-image">
-          <Section1Image />
-        </Col>
-        <Col xs={24} sm={12} lg={8} className="section1-content">
-          <h2 className="section1-heading">{heading}</h2>
-          <p className="section1-text">{content}</p>
-          <Button className="ant-btn section1-cta-button" type="primary">
-            {buttonText}
-          </Button>
-        </Col>
-      </Row>
-    </div>
+    <Row gutter={16}>
+      <Col xs={24} md={12}>
+        <img src={laptopImage} alt="Laptop" style={{ maxWidth: '100%' }} />
+      </Col>
+      <Col xs={24} md={12}>
+        <div className='section-container' style={{ padding: '16px' }}>
+          <h2>Lorem ipsum dolor sit amet consectetur</h2>
+          <p style={{ marginBottom: '10px' }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            gravida justo sit amet quam porta, a sodales orci gravida.
+          </p>
+          <Button type="primary">Learn More</Button>
+        </div>
+      </Col>
+    </Row>
   );
 };
 
-export default Section1;
+export default CtaSection1;

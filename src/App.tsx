@@ -1,10 +1,12 @@
 import React, { FC } from "react";
+import { Layout } from 'antd';
 import "./App.css";
 import Header from "./components/header";
 import HeroSection from "./components/HeroSection";
 import PartnersSection from "./components/PartnersSection";
-import CtaSection1 from "./components/CtaSection1";
-import CtaSection2 from "./components/CtaSection2";
+import CtaSection1 from './components/CtaSection1';
+
+const { Content } = Layout;
 
 const App: FC = () => {
   return (
@@ -16,16 +18,13 @@ const App: FC = () => {
         buttonText="Learn More"
       />
       <PartnersSection />
-      <CtaSection1 
-        heading={"Discover Amazing Content"}
-        content={"Welcome to our website"}
-        buttonText={"Learn More"}
-      />
-      <CtaSection2 
-        heading={"Discover Amazing Content"}
-        content={"Welcome to our website"}
-        buttonText={"Learn More"}
-      />
+      <div className="section-container">
+      <Layout>
+        <Content style={{ padding: '24px' , backgroundColor: "white"}}>
+          <CtaSection1 />
+        </Content>
+      </Layout>
+      </div>
     </div>
   );
 };

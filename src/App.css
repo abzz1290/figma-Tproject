@@ -34,3 +34,15 @@
 .burger-icon svg {
   fill: white;
 }
+
+/* .section-container {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    display: flex;
+    align-items: center;
+  }
+} */
+
