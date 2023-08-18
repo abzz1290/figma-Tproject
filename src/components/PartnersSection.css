@@ -43,7 +43,6 @@
   }
   .partners-section--textarea {
     display: flex;
-    width: 335px;
     flex-direction: column;
     align-items: center;
     gap: 16px;
@@ -53,8 +52,7 @@
     align-items: center;
     margin-bottom: 32px;
     flex-direction: column;
-    /* align-content: center; */
-    /* justify-content: center; */
+  
   }
   .partners-section {
     text-align: center;

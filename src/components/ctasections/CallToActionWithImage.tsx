@@ -1,7 +1,8 @@
 import { Row, Col, Button } from "antd";
 import laptopImage from "../images/ctafirstsec.svg";
-import './CtaSection1.css';
-const CtaSection1 = () => {
+import './CallToActionWithImage.css';
+
+const CallToActionWithImage = () => {
   return (
     <div className="test">
       <Row gutter={16}>
@@ -24,4 +25,4 @@ const CtaSection1 = () => {
   );
 };
 
-export default CtaSection1;
+export default CallToActionWithImage;

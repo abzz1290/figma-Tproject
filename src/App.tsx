@@ -1,13 +1,13 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { Layout } from 'antd';
 import "./App.css";
 import Header from "./components/header";
 import HeroSection from "./components/HeroSection";
 import PartnersSection from "./components/PartnersSection";
-import CtaSection1 from './components/CtaSection1';
-import CtaSection2 from "./components/CtaSection2";
 import OurTeamSection from "./components/OurTeamSection"; 
 import Footer from "./components/Footer";
+import CallToActionWithImage from "./components/ctasections/CallToActionWithImage";
+import CallToActionWithImageReversed from "./components/ctasections/CallToActionWithImageReversed";
 
 const { Content } = Layout;
 
@@ -26,7 +26,7 @@ const App: FC = () => {
       <div className="section-container">
         <Layout>
           <Content style={{ padding: '24px', backgroundColor: "white" }}>
-            <CtaSection1 />
+            <CallToActionWithImage />
           </Content>
         </Layout>
       </div>
@@ -35,7 +35,7 @@ const App: FC = () => {
       <div className="section-container">
         <Layout>
           <Content style={{ padding: '24px', backgroundColor: "white" }}>
-            <CtaSection2 />
+            <CallToActionWithImageReversed />
           </Content>
         </Layout>
       </div>
