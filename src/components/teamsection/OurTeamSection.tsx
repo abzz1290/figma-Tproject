@@ -1,11 +1,11 @@
 import React from "react";
-import { Row, Col } from "antd";
+import { Row, Col, Button } from "antd";
 import TeamMember from "./TeamMember";
 import "./OurTeamSection.css";
-import member1Image from "../images/member1.svg";
-import member2Image from "../images/member1.svg";
-import member3Image from "../images/member1.svg";
-import member4Image from "../images/member1.svg";
+import member1Image from "./assets/member1.svg";
+import member2Image from "./assets/member1.svg";
+import member3Image from "./assets/member1.svg";
+import member4Image from "./assets/member1.svg";
 
 
 const OurTeamSection: React.FC = () => {
@@ -50,6 +50,7 @@ const OurTeamSection: React.FC = () => {
             imageSrc={member4Image}
           />
         </Col>
+      <Button className='team-btn' type="primary">Learn More</Button>
       </Row>
     </section>
   );

@@ -1,13 +1,13 @@
 import { FC } from "react";
 import { Layout } from 'antd';
 import "./App.css";
-import Header from "./components/header/header";
-import HeroSection from "./components/herosection/HeroSection";
-import PartnersSection from "./components/brandsection/PartnersSection";
-import OurTeamSection from "./components/teamsection/OurTeamSection"; 
-import Footer from "./components/footer/Footer";
-import CallToActionWithImage from "./components/ctasections/CallToActionWithImage";
-import CallToActionWithImageReversed from "./components/ctasections/CallToActionWithImageReversed";
+import Header from "../src/components/header/header";
+import HeroSection from "../src/components/herosection/HeroSection";
+import PartnersSection from "../src/components/brandsection/PartnersSection";
+import OurTeamSection from "../src/components/teamsection/OurTeamSection"; 
+import Footer from "../src/components/footer/Footer";
+import CallToActionWithImage from "../src/components/ctasections/CallToActionWithImage";
+import CallToActionWithImageReversed from "../src/components/ctasections/CallToActionWithImageReversed";
 
 const { Content } = Layout;
 

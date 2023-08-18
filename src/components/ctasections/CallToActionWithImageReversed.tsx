@@ -1,7 +1,7 @@
-import React from 'react';
 import { Row, Col, Button } from 'antd';
-import laptopImage from '../images/ctasecondsec.svg'; 
-import './CtaSection2.css';
+import laptopImage from './assets/ctasecondsec.svg'; 
+import './CallToActionWithImageReversed.css';
+import './CallToActionWithImage.css';
 
 const CallToActionWithImageReversed = () => {
   return (
@@ -18,7 +18,7 @@ const CallToActionWithImageReversed = () => {
           </div>
         </Col>
         <Col xs={24} md={12}>
-          <img className='cta-section2-img' src={laptopImage} alt="Laptop" style={{ maxWidth: '100%' }} />
+          <img className='cta-image' src={laptopImage} alt="Laptop" style={{ maxWidth: '100%' }} />
         </Col>
       </Row>
     </section>

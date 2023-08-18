@@ -1,12 +1,12 @@
 import { FC } from "react";
 import { Button } from "antd";
-import "/PartnersSection.css";
+import "./PartnersSection.css"; 
+import googleLogo from "./assets/google-ar21.svg";
+import microsoftLogo from "./assets/microsoft.svg";
+import airbnbLogo from "./assets/airbnb-ar21.svg";
+import facebookLogo from "./assets/facebook-ar21.svg";
+import spotifyLogo from "./assets/spotify-ar21.svg";
 
-import googleLogo from "../images/google-ar21.svg";
-import microsoftLogo from "../images/microsoft.svg";
-import airbnbLogo from "../images/airbnb-ar21.svg";
-import facebookLogo from "../images/facebook-ar21.svg";
-import spotifyLogo from "../images/spotify-ar21.svg";
 
 const PartnersSection: FC = () => {
   return (
