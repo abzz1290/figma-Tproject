@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Button } from "antd";
-import "./PartnersSection.css";
+import "/PartnersSection.css";
 
 import googleLogo from "../images/google-ar21.svg";
 import microsoftLogo from "../images/microsoft.svg";

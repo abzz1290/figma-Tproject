@@ -1,5 +1,6 @@
 import React from "react";
 import { Layout, Row, Col, Space } from "antd";
+import '/Footer.css';
 import {
   GithubOutlined,
   TwitterOutlined,

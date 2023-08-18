@@ -1,11 +1,11 @@
 import { FC } from "react";
 import { Layout } from 'antd';
 import "./App.css";
-import Header from "./components/header";
-import HeroSection from "./components/HeroSection";
-import PartnersSection from "./components/PartnersSection";
-import OurTeamSection from "./components/OurTeamSection"; 
-import Footer from "./components/Footer";
+import Header from "./components/header/header";
+import HeroSection from "./components/herosection/HeroSection";
+import PartnersSection from "./components/brandsection/PartnersSection";
+import OurTeamSection from "./components/teamsection/OurTeamSection"; 
+import Footer from "./components/footer/Footer";
 import CallToActionWithImage from "./components/ctasections/CallToActionWithImage";
 import CallToActionWithImageReversed from "./components/ctasections/CallToActionWithImageReversed";
 
