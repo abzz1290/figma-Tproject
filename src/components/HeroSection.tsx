@@ -16,7 +16,7 @@ const HeroSection: FC<HeroSectionProps> = ({
 }) => {
   return (
     <div className="hero-section">
-    <Row gutter={[16, 16]} justify="center" align="middle">
+    <Row gutter={16}>
 
       <Col xs={24} sm={12} lg={8} className="hero-image">
         <HeroImage />

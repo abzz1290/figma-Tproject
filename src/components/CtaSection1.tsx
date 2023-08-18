@@ -9,7 +9,7 @@ const CtaSection1 = () => {
           <img src={laptopImage} alt="Laptop" style={{ maxWidth: "100%" }} />
         </Col>
         <Col xs={24} sm={12} md={6} lg={12}>
-          <div className="section-container" style={{ padding: "16px" }}>
+          <div className="section-container">
             <h2 className="heading">Lorem ipsum dolor sit amet consectetur</h2>
             <p className="section-container--text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit

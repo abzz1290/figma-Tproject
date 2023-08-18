@@ -4,31 +4,32 @@
 }
 
 .sub-heading {
+  color: var(--color-green-100, #74c69d);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Work Sans;
   font-size: 16px;
-  color: #74c69d;
-  line-height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
   letter-spacing: 5px;
+  text-transform: uppercase;
 }
 
 .heading {
+  color: var(--text-black, #000);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "Crimson Text";
   font-size: 24px;
-  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 125%;
 }
 
-/* .partners-text {
-    font-family: 'Work Sans';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    color: #000000;
-    margin-bottom: 32px; 
-  } */
 .partners-text {
   color: var(--text-black, #000);
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
-
-  /* Typography/Sub-Heading/Regular */
   font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
@@ -36,22 +37,18 @@
   line-height: 125%; /* 25px */
 }
 
-.brand-logos {
-  /* display: flex; */
-  align-items: center;
-  margin-bottom: 32px;
-}
-
-.brand-logo {
-  margin: 0 16px;
-}
-
 @media (max-width: 768px) {
   .partners-section {
     padding: 5% !important;
   }
-  .partners-content,
-  .brand-logos {
+  .partners-section--textarea {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .partners-content {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
@@ -61,5 +58,16 @@
   }
   .partners-section {
     text-align: center;
+  }
+  .brand-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .band-logos--gap-top-bottom {
+   margin-top: 55px;
+   margin-bottom: 55px;
   }
 }

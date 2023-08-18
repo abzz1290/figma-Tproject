@@ -7,7 +7,7 @@ const CtaSection2 = () => {
     <div className='test2'>
     <Row gutter={16} className='cta-section2-row'>
       <Col xs={24} md={12}>
-        <div className='section2-container' style={{ padding: '16px' }}>
+        <div className='section2-container'>
           <h2 className='heading'>Lorem ipsum dolor sit amet consectetur</h2>
           <p className='section-container--text'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
