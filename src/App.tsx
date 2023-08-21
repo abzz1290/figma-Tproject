@@ -25,7 +25,7 @@ const App: FC = () => {
       {/* CtaSection1 */}
       <div className="section-container">
         <Layout>
-          <Content style={{ padding: '24px', backgroundColor: "white" }}>
+          <Content style={{backgroundColor: "white" }}>
             <CallToActionWithImage />
           </Content>
         </Layout>
@@ -34,7 +34,7 @@ const App: FC = () => {
       {/* CtaSection2 */}
       <div className="section-container">
         <Layout>
-          <Content style={{ padding: '24px', backgroundColor: "white" }}>
+          <Content style={{ backgroundColor: "white" }}>
             <CallToActionWithImageReversed />
           </Content>
         </Layout>

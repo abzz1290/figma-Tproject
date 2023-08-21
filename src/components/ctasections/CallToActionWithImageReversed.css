@@ -22,8 +22,16 @@
   .image-col {
     order: 1; /* Move image to the top */
   }
+  .cta-section2-heading {
+    color: var(--color-dark-100, #212529);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Crimson Text";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 30px */
+  }
 }
-
 /* Styling for desktop layout */
 @media (min-width: 769px) {
   .content-col,
@@ -87,7 +95,15 @@
 /* Media query for desktop or laptop devices */
 @media screen and (min-width: 768px) {
   section.cta-section2 {
-    
-      margin: 0 5%; 
+    margin: 0 5%;
+  }
+  .cta-section2-heading {
+    color: var(--color-dark-100, #212529);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
   }
 }
