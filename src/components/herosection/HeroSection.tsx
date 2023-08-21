@@ -18,7 +18,7 @@ const HeroSection: FC<HeroSectionProps> = ({
     <div className="hero-section">
       <div className="hero-section--div">
         <Row justify="center" align="middle">
-          <Col xs={24} sm={12} lg={8} style={{ margin: '0px' }}  className="hero-content">
+          <Col xs={24} sm={12} lg={14} style={{ margin: '0px' }}  className="hero-content">
             <h2 className="hero-sub-heading">{subHeading}</h2>
             <h1 className="hero-main-heading">{heading}</h1>
             <p className="hero-section-text">
