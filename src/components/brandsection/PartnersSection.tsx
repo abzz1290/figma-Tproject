@@ -7,7 +7,13 @@ import airbnbLogo from "../../assets/airbnb-ar21.svg";
 import facebookLogo from "../../assets/facebook-ar21.svg";
 import spotifyLogo from "../../assets/spotify-ar21.svg";
 
-
+const brandLogos = [
+  { logo: googleLogo, alt: "Google" },
+  { logo: microsoftLogo, alt: "Microsoft" },
+  { logo: airbnbLogo, alt: "Airbnb" },
+  { logo: facebookLogo, alt: "Facebook" },
+  { logo: spotifyLogo, alt: "Spotify" },
+];
 
 const PartnersSection: FC = () => {
   return (
@@ -21,11 +27,14 @@ const PartnersSection: FC = () => {
       </div>
       <div className="band-logos--gap-top-bottom">
         <div className="brand-logos">
-          <img src={googleLogo} className="brand-logo" alt="Google" />
-          <img src={microsoftLogo} className="brand-logo" alt="Microsoft" />
-          <img src={airbnbLogo} className="brand-logo" alt="Airbnb" />
-          <img src={facebookLogo} className="brand-logo" alt="Facebook" />
-          <img src={spotifyLogo} className="brand-logo" alt="Spotify" />
+          {brandLogos.map((brand, index) => (
+            <img
+              key={index}
+              src={brand.logo}
+              className="brand-logo"
+              alt={brand.alt}
+            />
+          ))}
         </div>
       </div>
       <Button className="cta-section--btn" type="default">
