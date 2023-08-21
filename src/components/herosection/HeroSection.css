@@ -2,18 +2,9 @@
 .hero-section {
   background-color: #74c69d;
   padding: 5%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px;
   
 }
 
-.hero-image {
-  flex: 1;
-  order: 2;
-  margin-bottom: 16px;
-}
 
 .hero-content {
   font-family: "Work Sans";
@@ -132,3 +123,15 @@
     order: 2;
   }
 }
+
+/* for laptop */
+/* @media (min-width: 768px) {
+.hero-section--image {
+  
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+ 
+}
+} */

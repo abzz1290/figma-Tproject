@@ -7,6 +7,7 @@ const CallToActionWithImageReversed = () => {
   return (
     <section className='cta-section2'>
       <Row gutter={16} className='cta-section2-row'>
+      <div className="cta-main">
         <Col xs={24} md={12}>
           <div className='cta-section2-container'>
             <h2 className='cta-section2-heading'>Lorem ipsum dolor sit amet consectetur</h2>
@@ -18,8 +19,11 @@ const CallToActionWithImageReversed = () => {
           </div>
         </Col>
         <Col xs={24} md={12}>
+        <div className="cta-img">
           <img className='cta-image' src={laptopImage} alt="Laptop" style={{ maxWidth: '100%' }} />
+          </div>
         </Col>
+          </div>
       </Row>
     </section>
   );

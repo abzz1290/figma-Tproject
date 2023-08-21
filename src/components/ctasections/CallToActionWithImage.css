@@ -42,3 +42,13 @@ p.section-container--text, .cta-section2-text {
 .cta-image{
   margin-bottom: 30px;
 }
+
+/* for laptop and desktop screens */
+@media (min-width: 768px) {
+  .cta-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* align-content: center; */
+  }
+}
