@@ -1,5 +1,5 @@
 import { Row, Col, Button } from 'antd';
-import laptopImage from './assets/ctafirstsec.svg'; 
+import laptopImage from '../../assets/ctafirstsec.svg'; 
 import './CallToActionWithImage.css';
 
 const CallToActionWithImage = () => {

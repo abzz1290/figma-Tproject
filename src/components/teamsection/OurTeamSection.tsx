@@ -2,10 +2,10 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import TeamMember from "./TeamMember";
 import "./OurTeamSection.css";
-import member1Image from "./assets/member1.svg";
-import member2Image from "./assets/member1.svg";
-import member3Image from "./assets/member1.svg";
-import member4Image from "./assets/member1.svg";
+import member1Image from "../../assets/member1.svg";
+import member2Image from "../../assets/member1.svg";
+import member3Image from "../../assets/member1.svg";
+import member4Image from "../../assets/member1.svg";
 
 const OurTeamSection: React.FC = () => {
   return (

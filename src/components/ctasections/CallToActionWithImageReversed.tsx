@@ -1,5 +1,5 @@
 import { Row, Col, Button } from 'antd';
-import laptopImage from './assets/ctasecondsec.svg'; 
+import laptopImage from '../../assets/ctasecondsec.svg'; 
 import './CallToActionWithImageReversed.css';
 
 const CallToActionWithImageReversed = () => {

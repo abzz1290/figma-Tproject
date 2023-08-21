@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { Layout, Menu, Button, Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
-import logo from "../header/logo.svg";
+import logo from "../../assets/logo.svg";
 
 interface HeaderProps {
   title: string;

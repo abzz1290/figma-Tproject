@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { Button, Row, Col } from "antd";
-import { ReactComponent as HeroImage } from "./heroimage.svg";
+import { ReactComponent as HeroImage } from "../../assets/heroimage.svg";
 import "./HeroSection.css";
 
 interface HeroSectionProps {
