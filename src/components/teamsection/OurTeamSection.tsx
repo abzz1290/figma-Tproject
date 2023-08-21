@@ -11,23 +11,25 @@ const OurTeamSection: React.FC = () => {
   return (
     <section className="our-team-section">
       <div className="partners-section">
-        <h2 className="sub-heading">Team</h2>
-        <div className="partners-content">
-          <h1 className="heading">Our Talent</h1>
-          <p className="partners-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
+        <div className="our-team--text-area">
+          <h2 className="sub-heading">Team</h2>
+          <div className="partners-content">
+            <h1 className="heading our-team--heading">Our Talent</h1>
+            <p className="partners-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
         </div>
       </div>
       <Row className="testyo" gutter={[16, 16]}>
         <Col xs={24} sm={12} md={6}>
-          <TeamMember 
+          <TeamMember
             name="John Doe"
             occupation="Ceo"
             imageSrc={member1Image}
           />
         </Col>
-        
+
         <Col xs={24} sm={12} md={6}>
           <TeamMember
             name="Jane Smith"
@@ -51,7 +53,9 @@ const OurTeamSection: React.FC = () => {
         </Col>
         <Col xs={24} className="team-btn-col">
           <div className="team-btn-div">
-            <Button className="team-btn" type="primary">Learn More</Button>
+            <Button className="team-btn" type="primary">
+              Learn More
+            </Button>
           </div>
         </Col>
       </Row>

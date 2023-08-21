@@ -1,10 +1,13 @@
-@media (max-width: 768px) {
-  .testyo {
-    padding: 0 10%;
-    row-gap: 40px !important;
-  }
-
+/*gaps between heading, text as figma START  */
+.our-team--text-area{
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
 }
+.heading.our-team--heading {
+  margin-bottom: 16px;
+}
+/*  gaps between heading, text as figma END */
 
 .team-btn-col {
   display: flex;
@@ -24,4 +27,12 @@
   font-style: normal;
   font-weight: 400;  
   box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .testyo {
+    padding: 0 10%;
+    row-gap: 40px !important;
+  }
+
 }
