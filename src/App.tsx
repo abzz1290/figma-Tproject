@@ -18,7 +18,7 @@ const App: FC = () => {
       <HeroSection
         subHeading="Welcome"
         heading="Lorem ipsum dolor sit amet consectetur"
-        buttonText="Learn More"
+        buttonText="Explore"
       />
       <PartnersSection />
 
