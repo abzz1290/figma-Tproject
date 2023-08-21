@@ -7,7 +7,6 @@ import member2Image from "./assets/member1.svg";
 import member3Image from "./assets/member1.svg";
 import member4Image from "./assets/member1.svg";
 
-
 const OurTeamSection: React.FC = () => {
   return (
     <section className="our-team-section">
@@ -50,7 +49,11 @@ const OurTeamSection: React.FC = () => {
             imageSrc={member4Image}
           />
         </Col>
-      <Button className='team-btn' type="primary">Learn More</Button>
+        <Col xs={24} className="team-btn-col">
+          <div className="team-btn-div">
+            <Button className="team-btn" type="primary">Learn More</Button>
+          </div>
+        </Col>
       </Row>
     </section>
   );

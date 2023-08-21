@@ -3,20 +3,25 @@
     padding: 0 10%;
     row-gap: 40px !important;
   }
+
+}
+
+.team-btn-col {
+  display: flex;
+  justify-content: center;
 }
 
 .team-btn {
   width: 170px;
   height: 48px;
-  flex-shrink: 0;
   border-radius: 5px;
-  background: var(--color-dark, #212529);
-  color: #fff;
+  background: #000; /* Updated background color */
+  color: #fff; /* Text color */
   text-align: center;
   font-feature-settings: "clig" off, "liga" off;
   font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 125%;
+  font-weight: 400;  
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
 }

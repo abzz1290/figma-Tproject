@@ -1,5 +1,7 @@
-/* for both cta 1 and cta2 text color */
-p.section-container--text, .cta-section2-text {
+/* CallToActionWithImage.css */
+/* Text color and button styles for cta 1 */
+
+.cta-section-text {
   color: var(--color-dark-50, rgba(33, 37, 41, 0.5));
   font-feature-settings: "clig" off, "liga" off;
   font-family: Work Sans;
@@ -7,12 +9,9 @@ p.section-container--text, .cta-section2-text {
   font-style: normal;
   font-weight: 400;
   line-height: 125%; /* 18.75px */
-  /* margin-bottom: 5%; */
 }
 
-
-/* for all cta black btn */
-.cta-section--btn,.cta-section2-btn {
+.cta-section-btn {
   width: 170px;
   height: 48px;
   flex-shrink: 0;
@@ -28,27 +27,29 @@ p.section-container--text, .cta-section2-text {
   line-height: 125%; /* 25px */
 }
 
-.cta-section--btn:hover {
+.cta-section-btn:hover {
   background-color: white;
   color: black;
 }
 
-.cta-section2-container, .section-container {
+/* Container for cta 1 */
+.cta-section-container {
   gap: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.cta-image{
+/* Image margin for cta 1 */
+.cta-image {
   margin-bottom: 30px;
 }
 
-/* for laptop and desktop screens */
-@media (min-width: 768px) {
-  .cta-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* align-content: center; */
-  }
+.cta-main {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }

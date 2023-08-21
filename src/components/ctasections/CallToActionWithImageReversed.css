@@ -1,5 +1,85 @@
+/* Basic styling for the responsive container */
+.responsive-container {
+  padding: 20px;
+}
+
+/* Centered layout on mobile */
 @media (max-width: 768px) {
-  .cta-section2-row {
-    flex-direction: column-reverse;
+  .content-col,
+  .image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    gap: 16px; /* Add gap between elements */
+  }
+
+  .content-col {
+    order: 2; /* Move content below the image */
+  }
+
+  .image-col {
+    order: 1; /* Move image to the top */
   }
 }
+
+/* Styling for desktop layout */
+@media (min-width: 769px) {
+  .content-col,
+  .image-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; /* Stack elements vertically on desktop */
+    gap: 16px; /* Add gap between elements */
+  }
+}
+
+/* Additional styling for the content and image */
+.content {
+  padding: 20px;
+}
+
+.cta-section2-text {
+  color: var(--color-dark-50, rgba(33, 37, 41, 0.5));
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Work Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 18.75px */
+}
+
+.image {
+  padding: 20px;
+}
+
+.cta-section2-btn {
+  width: 170px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--color-dark, #212529);
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.cta-section2-btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.cta-section2-container {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
