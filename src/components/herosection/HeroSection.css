@@ -1,10 +1,8 @@
 /* HeroSection.css */
 .hero-section {
   background-color: #74c69d;
-  padding: 5%;
-  
+  /* padding: 10% 5%; */
 }
-
 
 .hero-content {
   font-family: "Work Sans";
@@ -79,7 +77,6 @@
 } */
 
 @media (max-width: 768px) {
- 
   .brand-logos {
     display: flex;
     align-items: center;
@@ -111,9 +108,8 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 15px;
-    
   }
-  
+
   .hero-image {
     order: 1;
     margin-bottom: 16px;
@@ -135,3 +131,10 @@
  
 }
 } */
+
+/* for desktop/laptop devices */
+@media screen and (min-width: 768px) {
+  .hero-section--div {
+    padding: 10%;
+  }
+}

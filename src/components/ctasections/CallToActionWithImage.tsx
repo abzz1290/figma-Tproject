@@ -5,7 +5,7 @@ import './CallToActionWithImage.css';
 const CallToActionWithImage = () => {
   return (
     <section className='cta-section'>
-      <Row gutter={16} justify="center" align="middle">
+      <Row  justify="center" align="middle">
         {/* For desktop devices */}
         <Col xs={0} sm={0} md={12}>
           <div className="cta-img">
