@@ -88,6 +88,7 @@
   .hero-content {
     padding-right: 5%;
     width: 335px;
+    order: 2;
   }
   .hero-main-heading {
     font-size: 28px;
