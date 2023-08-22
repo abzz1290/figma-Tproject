@@ -2,7 +2,9 @@
 .responsive-container {
   padding: 20px;
 }
-
+.cta-section2-heading {
+  white-space: pre-line;
+}
 /* Centered layout on mobile */
 @media (max-width: 768px) {
   .content-col,
@@ -38,6 +40,9 @@
     flex-direction: column;
     padding-right: 5%;
     padding-left: 5%;
+  }
+  .cta-section2-text {
+    width: 334px;
   }
 }
 
@@ -114,5 +119,13 @@
     flex-direction: column;
     padding-right: 5%;
     padding-left: 7%;
+    width: 335px;
+  }
+}
+
+/* for smaller device */
+@media (max-width: 361px) {
+  .cta-section2-text{
+    width: 300px;
   }
 }

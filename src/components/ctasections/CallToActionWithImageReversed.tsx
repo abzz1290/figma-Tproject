@@ -2,10 +2,13 @@ import React from "react";
 import { Row, Col, Button } from "antd";
 import laptopImage from "../../assets/ctasecondsec.svg";
 import "./CallToActionWithImageReversed.css";
+import "../../App.css";
 
 interface CallToActionWithImageReversedProps {}
 
-const CallToActionWithImageReversed: React.FC<CallToActionWithImageReversedProps> = () => {
+const CallToActionWithImageReversed: React.FC<
+  CallToActionWithImageReversedProps
+> = () => {
   return (
     <section className="cta-section2">
       <Row gutter={16}>
@@ -21,7 +24,8 @@ const CallToActionWithImageReversed: React.FC<CallToActionWithImageReversedProps
           </div>
           <div className="cta-section2-container">
             <h2 className="cta-section2-heading">
-              Lorem ipsum dolor sit amet consectetur
+              Lorem ipsum dolor sit  
+              amet consectetur
             </h2>
             <p className="cta-section2-text">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
@@ -36,10 +40,10 @@ const CallToActionWithImageReversed: React.FC<CallToActionWithImageReversedProps
 
         {/* For desktop devices */}
         <Col xs={0} sm={0} md={24}>
-          <Row  justify="center" align="middle">
+          <Row justify="center" align="middle">
             <Col xs={24} md={12} className="cta-section2-container">
               <h2 className="cta-section2-heading">
-                Lorem ipsum dolor sit amet consectetur
+                Lorem ipsum dolor sit <br/>amet consectetur
               </h2>
               <p className="cta-section2-text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam

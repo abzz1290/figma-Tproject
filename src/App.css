@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -9,9 +9,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 11%;
-  background-color: #74C69D;
+  background-color: #74c69d;
   color: white;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
 }
 
 .logo {
@@ -22,13 +22,12 @@
 .title {
   font-size: 30px;
   font-weight: 500;
-  font-family: 'Work Sans';
+  font-family: "Work Sans";
 }
 
 .burger-icon {
   display: flex;
   align-items: center;
-  
 }
 
 .burger-icon svg {
@@ -45,4 +44,18 @@
     align-items: center;
   }
 } */
+
+.partners-section {
+  background-color: white;
+}
+
+section.our-team-section {
+  background-color: white;
+}
+
+p.lower-text {
+  padding-top: 5%;
+}
+
+
 

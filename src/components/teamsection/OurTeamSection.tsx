@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import { Row, Col, Button } from "antd";
 import TeamMember from "./TeamMember";
 import "./OurTeamSection.css";
@@ -14,7 +14,7 @@ const teamMembers = [
   { name: "Jane Smith", occupation: "Designer", imageSrc: member4Image },
 ];
 
-const OurTeamSection: React.FC = () => {
+const OurTeamSection: FC = () => {
   return (
     <section className="our-team-section">
       <div className="partners-section">
@@ -23,12 +23,13 @@ const OurTeamSection: React.FC = () => {
           <div className="partners-content">
             <h1 className="heading our-team--heading">Our Talent</h1>
             <p className="partners-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Lorem ipsum dolor sit amet, consectetur <br />
+              <p className="lower-text">adipiscing elit.</p>
             </p>
           </div>
         </div>
       </div>
-      <Row className="testyo" gutter={[16, 16]}>
+      <Row gutter={[16, 16]}>
         {teamMembers.map((member, index) => (
           <Col key={index} xs={24} sm={12} md={6}>
             <TeamMember

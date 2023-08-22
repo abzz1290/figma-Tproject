@@ -1,6 +1,5 @@
-import React from "react";
+import React, { FC } from "react";
 import { Layout, Row, Col, Space } from "antd";
-import '../footer/Footer.css';
 import {
   GithubOutlined,
   TwitterOutlined,
@@ -13,7 +12,7 @@ import "./Footer.css";
 
 const { Footer: AntdFooter } = Layout;
 
-const Footer: React.FC = () => {
+const Footer: FC = () => {
   return (
     <AntdFooter className="footer">
       <Row justify="center">
