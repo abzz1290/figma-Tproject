@@ -31,7 +31,16 @@
     font-weight: 700;
     line-height: 125%; /* 30px */
   }
+
+  .cta-section2-container {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }
+
 /* Styling for desktop layout */
 @media (min-width: 769px) {
   .content-col,
@@ -85,13 +94,6 @@
   color: black;
 }
 
-.cta-section2-container {
-  gap: 16px;
-  display: flex;
-  flex-direction: column;
-  padding-right: 5%;
-}
-
 /* Media query for desktop or laptop devices */
 @media screen and (min-width: 768px) {
   section.cta-section2 {
@@ -105,5 +107,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: 125%;
+  }
+  .cta-section2-container {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+    padding-left: 7%;
   }
 }

@@ -1,3 +1,60 @@
+/* Common styles for both desktop and mobile */
+.header {
+  width: 100%;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+}
+.logo {
+  display: flex;
+  margin-right: 10px;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+/* Sticky header styles for laptops */
+.desktop-menu,
+.hide-drawer-desktop {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #74c69d;
+  color: var(--color-white-100, #fff);
+  text-align: right;
+  font-size: 20px;
+}
+
+/* Hide the desktop menu on mobile devices */
+@media (max-width: 767px) {
+  .desktop-menu {
+    display: none;
+  }
+}
+
+ /* mobile header */ 
+.mobile-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #74c69d;
+}
+
+/* Mobile content layout */
+.mobile-content {
+  display: flex;
+  align-items: center;
+}
+
+/* Logo and title styles */
+.logo {
+  margin-right: 10px; 
+}
+
+.title {
+  font-size: 18px; 
+}
+
+
 /* Add these styles for sticky header on laptops */
 .desktop-menu {
   display: flex;

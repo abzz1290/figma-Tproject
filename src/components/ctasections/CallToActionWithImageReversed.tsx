@@ -1,8 +1,11 @@
+import React from "react";
 import { Row, Col, Button } from "antd";
 import laptopImage from "../../assets/ctasecondsec.svg";
 import "./CallToActionWithImageReversed.css";
 
-const CallToActionWithImageReversed = () => {
+interface CallToActionWithImageReversedProps {}
+
+const CallToActionWithImageReversed: React.FC<CallToActionWithImageReversedProps> = () => {
   return (
     <section className="cta-section2">
       <Row gutter={16}>

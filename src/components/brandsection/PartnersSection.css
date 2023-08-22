@@ -70,7 +70,7 @@
 /* for laptop/desktop responsiveness */
 @media (min-width: 768px) {
   .brand-logos {
-    gap: 30px;
+    gap: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,5 +120,6 @@
   }
   .partners-text {
     padding: 0 10%;
+    
   }
 }

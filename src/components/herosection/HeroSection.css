@@ -1,55 +1,58 @@
 /* HeroSection.css */
+
+/* Base styles for the hero section */
 .hero-section {
   background-color: #74c69d;
   /* padding: 10% 5%; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px; */
+  padding: 10% 8%; /* Default padding for desktop */
 }
 
-.hero-content {
-  font-family: "Work Sans";
-  color: white;
+/* Typography styles for hero content */
+.hero-content,
+.hero-sub-heading,
+.hero-main-heading,
+.hero-section-text,
+.hero-cta-button {
   font-feature-settings: "clig" off, "liga" off;
-  font-family: Work Sans;
-  font-size: 15px;
+  font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
   line-height: 125%;
 }
 
+/* Hero sub-heading style */
 .hero-sub-heading {
-  color: var(--text-white, #fff);
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: "Work Sans";
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
-  line-height: 125%;
   letter-spacing: 5px;
   text-transform: uppercase;
+  color: var(--text-white, #fff);
   padding-bottom: 5%;
 }
 
+/* Hero main-heading style */
 .hero-main-heading {
-  color: var(--text-white, #fff);
-  font-feature-settings: "clig" off, "liga" off;
   font-family: "Crimson Text";
-  font-size: 28px;
-  font-style: normal;
+  font-size: 40px;
   font-weight: 700;
   line-height: 100%;
+  color: var(--text-white, #fff);
   padding-bottom: 5%;
 }
 
+/* Hero section text style */
 .hero-section-text {
-  color: var(--color-white-75, rgba(255, 255, 255, 0.75));
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Work Sans;
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 20px;
+  color: var(--color-white-75, rgba(255, 255, 255, 0.75));
   margin-bottom: 5%;
 }
 
+/* Hero CTA button styles */
 .hero-cta-button {
   border-radius: 5px;
   background: #fff;
@@ -58,83 +61,50 @@
   flex-shrink: 0;
   color: #000;
   text-align: center;
-  font-feature-settings: "clig" off, "liga" off;
-  font-family: Work Sans;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 125%;
 }
 
+/* Hover effect for CTA button */
 .hero-cta-button:hover {
   background-color: black;
   color: white;
 }
 
-/* .partners-section {
-    padding: 5% 5%;
-    text-align: center;
-} */
+/* Media Queries */
 
-@media (max-width: 768px) {
-  .brand-logos {
-    display: flex;
-    align-items: center;
-    margin-bottom: 32px;
-    flex-direction: column;
-    /* align-content: center; */
-    /* justify-content: center; */
+/* Mobile devices */
+@media (max-width: 767px) {
+  .hero-cta-button,
+  .hero-content {
+    font-size: 18px; /* Adjust font size for better mobile readability */
   }
 
-  .hero-content .hero-cta-button {
-    border-radius: 5px;
-    background: #fff;
-    width: 170px;
-    height: 48px;
-    flex-shrink: 0;
-    color: #000;
-    text-align: center;
-    font-feature-settings: "clig" off, "liga" off;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
-  }
-  .hero-section {
-    background-color: #74c69d;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-  }
-
-  .hero-image {
-    order: 1;
-    margin-bottom: 16px;
+  svg.mobile--svg {
+    width: 290px;
   }
 
   .hero-content {
-    order: 2;
+    padding-right: 5%;
+  }
+  .hero-main-heading {
+    font-size: 28px;
   }
 }
 
-/* for laptop */
-/* @media (min-width: 768px) {
-.hero-section--image {
-  
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
- 
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-section {
+    padding: 10% 0;
+  }
 }
-} */
 
-/* for desktop/laptop devices */
-@media screen and (min-width: 768px) {
-  .hero-section--div {
-    padding: 10%;
+/* Desktop/laptop devices */
+@media (min-width: 1024px) {
+  .hero-section {
+    padding: 10% 8%;
+  }
+  .hero-content {
+    padding-right: 10%;
   }
 }
