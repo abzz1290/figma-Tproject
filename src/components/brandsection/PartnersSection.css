@@ -82,16 +82,10 @@
   }
 }
 
-
-
-
-
-
 /* mobile devices */
 @media (max-width: 768px) {
   .partners-section {
     padding: 5% !important;
-    
   }
   .partners-section--textarea {
     display: flex;
@@ -114,33 +108,30 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-}
-    
-.brand-logos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  width: 335px;
-}
-.band-logos--gap-top-bottom {
-  margin-top: 55px;
-  margin-bottom: 55px;
-}
-.heading {
-  font-family: "Crimson Text";
-  font-size: 24px;
-  width: 335px;
-
-}
-.partners-text {
-  padding: 0 8%;
-  width: 335px;
-} 
   }
-  
 
+  .brand-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 335px;
+  }
+  .band-logos--gap-top-bottom {
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+  .heading {
+    font-family: "Crimson Text";
+    font-size: 24px;
+    width: 335px;
+  }
+  .partners-text {
+    padding: 0 8%;
+    width: 335px;
+  }
+}
 
 @media (min-width: 770px) and (max-width: 1022px) {
   .brand-logos {
@@ -154,7 +145,22 @@
 
 /* for smaller device */
 @media (max-width: 361px) {
-  .partners-text,.heading,.brand-logos{
+  .partners-text,
+  .heading,
+  .brand-logos {
     width: 300px;
+  }
+}
+
+/* for big screen */
+@media (min-width: 1440px) {
+  .large-screen--brand-div {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+  .partners-section {
+    width: 1159px;
+    display: inline-block;
   }
 }

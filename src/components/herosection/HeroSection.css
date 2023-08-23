@@ -1,17 +1,10 @@
-/* HeroSection.css */
 
-/* Base styles for the hero section */
 .hero-section {
   background-color: #74c69d;
-  /* padding: 10% 5%; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15px; */
-  padding: 10% 8%; /* Default padding for desktop */
+
+  padding: 10% 8%; 
 }
 
-/* Typography styles for hero content */
 .hero-content,
 .hero-sub-heading,
 .hero-main-heading,
@@ -24,7 +17,6 @@
   line-height: 125%;
 }
 
-/* Hero sub-heading style */
 .hero-sub-heading {
   font-size: 16px;
   font-weight: 700;
@@ -34,7 +26,6 @@
   padding-bottom: 5%;
 }
 
-/* Hero main-heading style */
 .hero-main-heading {
   font-family: "Crimson Text";
   font-size: 40px;
@@ -44,7 +35,6 @@
   padding-bottom: 5%;
 }
 
-/* Hero section text style */
 .hero-section-text {
   font-size: 15px;
   line-height: 20px;
@@ -71,7 +61,6 @@
   color: white;
 }
 
-/* Media Queries */
 
 /* Mobile devices */
 @media (max-width: 767px) {
@@ -104,6 +93,9 @@
 .header {
   padding: 0 5%;
 }
+.hero-sub-heading {
+  padding-top: 5%;
+}
 }
 
 @media (max-width: 361px) {
@@ -134,5 +126,10 @@
   }
 }
 
-
+/* Media Query for screens from 1440px and larger */
+@media (min-width: 1440px) {
+  .hero-section--div {
+    width: 1180px;
+  }
+}
 

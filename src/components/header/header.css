@@ -31,6 +31,9 @@
   .desktop-menu {
     display: none;
   }
+  .title {
+    font-size: 18px; 
+  }
 }
 
  /* mobile header */ 
@@ -50,9 +53,7 @@
   margin-right: 10px; 
 }
 
-.title {
-  font-size: 18px; 
-}
+
 
 
 /* Add these styles for sticky header on laptops */
@@ -88,4 +89,11 @@
 .mobile-header {
   background-color: #74c69d;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query for screens from 1440px and larger */
+@media (min-width: 1440px) {
+  .desktop-menu {
+    width: 1180px;
+  }
 }

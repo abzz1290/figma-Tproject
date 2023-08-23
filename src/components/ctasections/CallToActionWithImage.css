@@ -114,3 +114,9 @@
     width: 300px;
   }
 }
+
+@media (min-width: 1440px) {
+p.cta-section-text, p.cta-section2-text {
+  width: 475px;
+}
+}

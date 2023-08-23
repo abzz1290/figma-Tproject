@@ -57,17 +57,29 @@
     display: flex;
     flex-direction: column;
     /* align-content: space-around; */
-}
-.ant-col.ant-col-xs-24.ant-col-sm-12.ant-col-md-6.css-dev-only-do-not-override-fpg3f5{
-  padding-left: 8px;
+  }
+  .ant-col.ant-col-xs-24.ant-col-sm-12.ant-col-md-6.css-dev-only-do-not-override-fpg3f5 {
+    padding-left: 8px;
     padding-right: 8px;
     text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+  .team-btn-div {
+    padding-top: 8%;
+  }
 }
-.team-btn-div {
-  padding-top: 8%;
-}
+
+/* for bigger screen 1440px and plus */
+@media (min-width: 1440px) {
+  .our-team--text-area {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* align-content: center; */
+    padding-left: 14%;
+  }
 }

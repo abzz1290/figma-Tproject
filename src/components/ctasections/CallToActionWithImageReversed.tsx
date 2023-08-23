@@ -46,8 +46,9 @@ const CallToActionWithImageReversed: React.FC<
                 Lorem ipsum dolor sit <br/>amet consectetur
               </h2>
               <p className="cta-section2-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                gravida justo sit amet quam porta, a sodales orci gravida.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+              nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
+              voluptate culpa nesciunt delectus iste?
               </p>
               <Button className="cta-section2-btn" type="primary">
                 Learn More

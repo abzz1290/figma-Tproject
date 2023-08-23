@@ -57,5 +57,8 @@ p.lower-text {
   padding-top: 5%;
 }
 
-
+.anticon svg {
+  display: inline-block;
+  font-size: 20px;
+}
 
