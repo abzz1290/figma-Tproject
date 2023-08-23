@@ -160,7 +160,21 @@
     background-color: white;
   }
   .partners-section {
-    width: 1159px;
-    display: inline-block;
+    width: 1180px;
+    margin: 0 auto !important;
+  }
+  .partners-section--textarea {
+    width: 411px;
+    margin: 0 auto !important;
+    display: contents;
+  }
+  .sub-heading , .heading, .partners-text{
+    width: 411px;
+    margin: 0 auto !important;
+    padding: 0;
+    margin-top: 5%;
+  }
+  .sub-heading {
+   margin-top: 5%!important;
   }
 }

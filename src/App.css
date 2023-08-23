@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
   font-family: "Work Sans";
 }
@@ -62,3 +62,19 @@ p.lower-text {
   font-size: 20px;
 }
 
+/* logo */
+
+/* @media (max-width: 767px) {
+  .logo {
+    width: 45px;
+    height: 31px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .logo {
+    width: 70px;
+    height: 48px;
+  }
+} */

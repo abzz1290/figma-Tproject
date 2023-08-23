@@ -43,14 +43,14 @@ const Header: FC<HeaderProps> = ({ title }) => {
       {isMobile ? (
         <div className="mobile-content">
           <div className="logo">
-            <img src={logo} alt="Logo" width={50} height={50} />
+            <img src={logo} alt="Logo" width={45} height={31} />
           </div>
           <div className="title">{title}</div>
         </div>
       ) : (
         <>
           <div className="logo">
-            <img src={logo} alt="Logo" width={50} height={50} />
+            <img src={logo} alt="Logo" width={70} height={48} />
           </div>
           <div className="title">{title}</div>
         </>
